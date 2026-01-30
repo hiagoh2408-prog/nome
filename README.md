@@ -1,2 +1,2 @@
 # Python
-repositório feito no curso de python da studio games.
+repositório feito no curso de python da studio games
