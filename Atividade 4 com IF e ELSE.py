@@ -8,4 +8,4 @@ else :
 if dinheirototal < custoderoupas :
   print("Não posso levar as roupas, preciso de mais " + str(custoderoupas - dinheirototal) + " reais")
 else :
-  print("vou levar as roupas, pois ainda vai sobrar " + str(dinheirototal - custoderoupas) + " reais")custofrutas = 15
+  print("vou levar as roupas, pois ainda vai sobrar " + str(dinheirototal - custoderoupas) + " reais")
