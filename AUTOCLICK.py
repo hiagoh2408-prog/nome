@@ -3,7 +3,7 @@ import threading
 from pynput import mouse, keyboard
 
 # Configurações
-HOTKEY = keyboard.KeyCode.from_char('z')  # Tecla que liga/desliga
+HOTKEY = keyboard.key.f6 # Tecla que liga/desliga
 EXIT_KEY = keyboard.Key.esc               # Tecla para sair
 CLICK_DELAY = 0.01                         # Intervalo entre cliques
 
@@ -40,7 +40,7 @@ def on_press(key):
 
 
 print("Auto Clicker iniciado")
-print("Pressione 'z' para ligar/desligar")
+print("Pressione 'f6' para ligar/desligar")
 print("Pressione 'ESC' para sair")
 
 with keyboard.Listener(on_press=on_press) as listener:
