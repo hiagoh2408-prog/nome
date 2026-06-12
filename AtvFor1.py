@@ -1,5 +1,4 @@
-Perguntas = ["Quantas atividades de sequencia já tiveram?",
-             "Quantos dias tem 1 ano comum?",  "Quanto é 10 x 5?"]
+Perguntas = ["Quantas atividades de sequencia já tiveram?","Quantos dias tem 1 ano comum?",  "Quanto é 10 x 5?"]
 Respostas = ["3",  "355",  "50"]
 
 Quantidade_de_acertos = 0
